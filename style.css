@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #0984e3;
+}
+
+.phone {
+    height: 700px;
+    width: 350px;
+    background-color: #ecf0f1;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(255, 255, 255, 0.25) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.75) 75%, rgb(255, 255, 255, 1) 100%), url("https://images.unsplash.com/photo-1556950961-8c092986258e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.header__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    color: #bdc3c7;
+}
+
+.header__bottom span {
+    margin: 0 20px;
+}
+
+.profile__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+.profile__section div {
+    margin: 10px 0;
+}
+
+.profile__section .name {
+    font-family: "Modak", cursive;
+    font-size: 600;
+    color: #0984e3;
+}
+
+.profile__section .location {
+    color: #b2bec3;
+}
+
+.input__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 125px;
+}
+
+.input__container .follow__btn,
+.input__container .message__btn {
+    width: 130px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    font-size: 16px;
+    text-align: center;
+}
+
+.input__container .message__btn {
+    color: white;
+    background-color: #0984e3;
+}
+
+.profile__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url("https://lumiere-a.akamaihd.net/v1/images/ct_frozen_elsa_18466_22a50822.jpeg?region=0,0,600,600");
+    background-color: red;
+    background-size: cover;
+}
+
+.more__functions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    margin: 0 35px;
+    text-align: center;
+}
+
+.nav__bar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 230px;
+    padding: 0 20px;
+    color: #b2bec3;
+    font-size: 22px;
+}
+
+.line {
+    width: 100px;
+    height: 4px;
+    color: #b2bec3;
+    border-radius: 5px;
+    background-color: #dfe6e9;
+    margin-left: 37%;
+    position: relative;
+    top: 220px;
+}
